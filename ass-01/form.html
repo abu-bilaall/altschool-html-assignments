@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font link -- Inter, courtesy of Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="form.css">
+    <title>Application Form</title>
+</head>
+
+<body>
+    <!-- 
+    connect to index.html via global navigation
+    footer with your addy and copyright
+    -->
+    <header>
+
+    </header>
+    <main>
+        <div class="main-wrapper">
+            <div class="misc">
+                <h1>Signup</h1>
+                <p>Take the next steps to apply at AltSchool Africa</p>
+            </div>
+            <form action="">
+                <div class="entry-pairs">
+                    <div class="form-entries">
+                        <label for="first-name">First Name</label>
+                        <input type="text" id="first-name" name="first-name" placeholder="First Name">
+                    </div>
+                    <div class="form-entries">
+                        <label for="first-name">Last Name</label>
+                        <input type="text" id="last-name" name="last-name" placeholder="Last Name">
+                    </div>
+                </div>
+                <div class="entry-pairs">
+                    <div class="form-entries">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Email">
+                    </div>
+                    <div class="form-entries">
+                        <label for="gender">Gender</label>
+                        <select name="gender" id="gender">
+                            <option value="" selected disabled hidden>Select your gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="entry-pairs">
+                    <div class="form-entries">
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" id="dob" name="dob">
+                    </div>
+                    <div class="form-entries">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Phone Number">
+                    </div>
+                </div>
+                <div class="entry-pairs">
+                    <div class="form-entries">
+                        <label for="country">Country of Residence</label>
+                        <input type="text" id="country" name="country" placeholder="Country of Residence">
+                    </div>
+                    <div class="form-entries">
+                        <label for="state">State of Residence</label>
+                        <input type="text" id="state" name="state" placeholder="State of Residence">
+                    </div>
+                </div>
+                <div class="entry-pairs">
+                    <div class="form-entries">
+                        <label for="pwd">Password</label>
+                        <input type="password" name="pwd" id="pwd" placeholder="Password">
+                    </div>
+                    <div class="form-entries">
+                        <label for="pwd">Confirm Password</label>
+                        <input type="password" name="pwd" id="pwd" placeholder="Confirm Password">
+                    </div>
+                </div>
+                <div class="form-entries">
+                    <label for="referral">How did you hear about us?</label>
+                        <input type="text" id="referral" name="referral" placeholder="Optional! Let us know how you found us">
+                </div>
+                <div class="privacy-policy">By clicking continue, I agree agree to <span>Terms of Use</span> and acknowledge that I have read the <span>Privacy Policy</span></div>
+                <div class="form-entries">
+                    <button type="submit">Signup <img src="./assets/icons/arrow-right.svg" alt="arrow-right"></button>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
